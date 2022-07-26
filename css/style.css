@@ -39,7 +39,7 @@ html,body {
   }
   
 
-  #popup4, #popup1, #popup2, #popup3  {
+   #popup1, #popup2, #popup3  {
       position: fixed;
       margin-top: 50px ;
       top:40%;
@@ -62,7 +62,7 @@ html,body {
 
   
 
-  #popup1.active, #popup2.active, #popup3.active, #popup4.active {
+  #popup1.active, #popup2.active, #popup3.active {
       top: 40%;
       visibility: visible;
       opacity: 1;
