@@ -123,7 +123,7 @@ html,body {
 
  }
 
-.banner__text {
+ .banner__text {
 	 position: absolute;
 	 top: 85px;
 	 left: 10px;
@@ -144,6 +144,14 @@ html,body {
     background: rgba(255, 255, 255, 0.85);
     padding: 3px 10px ; 
     text-align: center;
+    
+ }
+
+ .banner__text a {
+      
+	text-decoration: none;
+      color: #03a9f4;
+    
  }
 
  .fotka {
@@ -161,6 +169,32 @@ html,body {
 .fotka img {
 	max-width: 100%;
 	display: block;
+}
+
+.pao {
+
+     
+      
+            max-width: 1140px;
+            margin: 0 auto;
+          color: #fff;
+          font-size: 18px;
+          font-weight: 800;
+          border-radius: 10px; 
+          
+          padding: 3px 10px ; 
+          text-align: center;
+      
+
+}
+
+.formacion__content {
+     
+}
+
+.formacion p, .acerca p {
+      
+      color: #868686;
 }
 
 
@@ -307,7 +341,7 @@ html,body {
       padding: 0 0 10px 0;
 }
 
-.container__services .card__services {
+.container__services .card__services  {
       height: 460px;
       width: 300px;
       margin: 20px;
@@ -713,7 +747,7 @@ html,body {
       color:#fff;
 }
 
-.center .footer__content .fas {
+.center .footer__content  .fas {
       font-size: 1.4375rem;
       height: 40px;
       width: 40px;
