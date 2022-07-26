@@ -190,8 +190,8 @@ html,body {
 
 @media (max-height:700px) {
       .fotka {
-            max-width: 100px;
-            max-height: 100px;
+            max-width: 80px;
+            max-height: 80px;
             margin: 0 auto;
             flex: 0 0 60px;
             border: 1px solid #fff; 
