@@ -154,7 +154,7 @@
                     <h2>Personal medico a domicilio</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, cupiditate cumque, est tenetur aperiam quia voluptate at tempore quam, accusantium iusto corporis. 
                      </p>
-                    <a href="#services" onclick="toggle3()"><span>Más</span></a>
+                    <a href="#start" onclick="toggle3()"><span>Más</span></a>
               </div>
         </div>
         <div  id="lighting" class="card__services">
@@ -165,7 +165,7 @@
                     <h2>Atención en el consultorio</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, cupiditate cumque, est tenetur aperiam quia voluptate at tempore quam, accusantium iusto corporis. 
                       </p>
-                    <a href="#lighting" onclick="toggle1()"><span>Más</span></a>
+                    <a href="#start" onclick="toggle1()"><span>Más</span></a>
               </div>
         </div>
         <div  id="video" class="card__services">
@@ -177,7 +177,7 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, cupiditate cumque, est tenetur aperiam quia voluptate at tempore quam, accusantium iusto corporis.
                       
                     </p>
-                    <a href="#video" onclick="toggle2()"><span>Más</span></a>
+                    <a href="#start" onclick="toggle2()"><span>Más</span></a>
               </div>
         </div>
   </div>
@@ -337,42 +337,35 @@
   <a class="popup__botton" href="#services" onclick="toggle3()">Cerar</a>
 </div>
 
-<div id="popup4" class="popup">
-  <h2 class="nombres"> Dra. Paolett Tejada</h2>
-  <p class="descripcion">Medico certificado por el Colegio Medico del Perú,especialista en Oncologia Medica con mas de 6 años de experiencia especializada en Cuidados Paliativos Oncologicos y manejo del dolor. Abarca temas de salud tales como: Consejeria Oncologica, Tratamiento de Enfermedades Oncologicas, Tratamiento y manejo de dolor Oncologico y no Oncologico, Cuidados paliativos en pacientes Oncologicos y no Oncologicos
-  , Cuidados de soporte ambulatorio y domiciliario a pacientes oncologicos, convalecientes post-tratamamientos. Se formo como Medico Cirujano en la Universidad de Medicina del Norte de Rusia. Posteriormente se especialiso en Oncologia Medica en la Universidad de Investigacion Medica "Pirogova" de Moscú, realizo cursos y diplomados en Cuidados Paliativos y Algologia en diversas Universidades del Perú y extranjero. Es Magister en Cuidados Paliativos y manejo del dolor en la Universidad del Rey Juan Carlos de Madrid.
-     </p>
 
-  <a class="popup__botton" href="#about" onclick="toggle4()">Cerar</a>
-</div>
+
+ 
 <script type="text/javascript">
 
-function toggle4() {
-    var blur = document.getElementById('blur');
-    blur.classList.toggle('active')
-    var popup4 = document.getElementById('popup4');
-    popup4.classList.toggle('active')
-}
+
 
 function toggle1() {
     var blur = document.getElementById('blur');
     blur.classList.toggle('active')
     var popup1 = document.getElementById('popup1');
-    popup1.classList.toggle('active')
+    popup1.classList.toggle('active');
+    $('body').toggleClass('lock');
 }
 
 function toggle2() {
     var blur = document.getElementById('blur');
     blur.classList.toggle('active')
     var popup2 = document.getElementById('popup2');
-    popup2.classList.toggle('active')
+    popup2.classList.toggle('active');
+    $('body').toggleClass('lock');
 }
 
 function toggle3() {
     var blur = document.getElementById('blur');
     blur.classList.toggle('active')
     var popup3 = document.getElementById('popup3');
-    popup3.classList.toggle('active')
+    popup3.classList.toggle('active');
+    $('body').toggleClass('lock');
 }
 
 
