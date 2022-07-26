@@ -200,6 +200,14 @@ html,body {
             position: relative;
             z-index: ;
       }
+      .banner__text {
+            font-size: 14px;
+          } 
+          .pao {
+
+          font-size: 16px;
+
+}
 }
 
 .formacion__content {
