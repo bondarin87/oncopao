@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Servicios medicos">
+  <meta name="keywords" content="dolor, medicina paliativa, oncologia ">
+  <meta http-equiv="author" content="Sergio Bondar"/>
+  <script src="js/icons.js" crossorigin="anonymous"></script>
+  <title>Medicina paliativa</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(75282730, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/75282730" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</head>
+
+<body>
+
+  <div class="lds-ring loader" id="loader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+
+
+  <div class="wrapper" id="blur">
+
+
+
+      <header class="header">
+            <div class="container">
+                <div class="header__body">
+
+                    <a href="#" class="header__logo" >
+                        <img src="img/logo.png" alt="">
+                    </a>
+
+                    <div class="header__burger">
+                      <span>
+
+                      </span>
+                    </div>
+
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li>
+                                <a data-goto=".banner" href="#" class="header__link">inicio</a>
+                            </li>
+                             <li>
+                                <a data-goto=".about" href="#" class="header__link">acerca de mi</a>
+                            </li>
+                            <li>
+                              <a data-goto=".formacion" href="#" class="header__link">formacion</a>
+                          </li>
+                            <li>
+                              <a data-goto=".services1" href="#" class="header__link">servicios</a>
+                            </li>
+                            <li>
+                              <a data-goto=".gallery1" href="#" class="header__link">galería</a>
+                            </li>
+                            <li>
+                              <a data-goto=".main-content" href="#" class="header__link">contactos</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+      </header>
+
+
+      
+      <div class="banner" id="start" style="background-image: url(img/banner1.jpg);">
+        
+        <div class="banner__text">
+          <div class="fotka"><img src="img/sb.jpeg" alt=""></div>
+         <br>
+            
+            <p> Dra. Paolett Tejada Paredes <br> oncologia Medica, Medicina paliativa</p>
+            <br>
+            <p> <a href="#"> Medicina paliativa oncologica y no oncologica </a></p>
+            <br>
+            <p> <a href="#"> Consejeria y cuidados continuos oncologicos </a> </p>
+            <br>
+            <p> <a href="#">  Manejo del dolor </a> </p>
+            
+             </div>
+        <div class="banner-overlay"></div> 
+        
+   </div>
+
+
+
+
+
+    <div class="title__about">
+   <h2 class="about" id="about">acerca de mi</h2>
+  </div>
+  
+  <div class="title__about">
+    <h2 class="about formacion" id="formacion">formacion</h2>
+   </div>
+
+
+
+
+
+<div class="title__about">
+    <h2 class="about services1" id="services">servicios</h2>
+   </div>
+<section class="services">
+    <div class="container__services">
+        <div id="irrigation" class="card__services">
+              <div class="imgBx">
+                    <img src="img/poliv.png" alt="">
+              </div>
+              <div class="contentBx">
+                    <h2>Personal medico a domicilio</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, cupiditate cumque, est tenetur aperiam quia voluptate at tempore quam, accusantium iusto corporis. 
+                     </p>
+                    <a href="#services" onclick="toggle3()"><span>Más</span></a>
+              </div>
+        </div>
+        <div  id="lighting" class="card__services">
+              <div class="imgBx">
+                    <img src="img/svet.png" alt="">
+              </div>
+              <div class="contentBx">
+                    <h2>Atención en el consultorio</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, cupiditate cumque, est tenetur aperiam quia voluptate at tempore quam, accusantium iusto corporis. 
+                      </p>
+                    <a href="#lighting" onclick="toggle1()"><span>Más</span></a>
+              </div>
+        </div>
+        <div  id="video" class="card__services">
+              <div class="imgBx">
+                    <img src="img/kamera.png" alt="">
+              </div>
+              <div class="contentBx">
+                    <h2>Telemedicina</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, cupiditate cumque, est tenetur aperiam quia voluptate at tempore quam, accusantium iusto corporis.
+                      
+                    </p>
+                    <a href="#video" onclick="toggle2()"><span>Más</span></a>
+              </div>
+        </div>
+  </div>
+</section>
+
+
+
+<div class="title__about">
+    <h2 class="about gallery1" id="gallery">galeria</h2>
+   </div>
+<div class="swiper2">
+    <div class="swiper-container swiper-container2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide2"><img src="foto/foto1.jpg" alt=""></div>
+          <div class="swiper-slide swiper-slide2"><img src="foto/foto2.jpg" alt=""></div>
+          <div class="swiper-slide swiper-slide2"><img src="foto/foto3.jpg" alt=""></div>
+          <div class="swiper-slide swiper-slide2"><img src="foto/foto4.jpg" alt=""></div>
+          <div class="swiper-slide swiper-slide2"><img src="foto/foto5.jpg" alt=""></div>
+          <div class="swiper-slide swiper-slide2"><img src="foto/foto6.jpg" alt=""></div>
+          <div class="swiper-slide swiper-slide2"><img src="foto/foto7.jpg" alt=""></div>
+          <div class="swiper-slide swiper-slide2"><img src="foto/foto8.jpg" alt=""></div>
+          <div class="swiper-slide swiper-slide2"><img src="foto/foto9.jpg" alt=""></div>
+          <div class="swiper-slide swiper-slide2"><img src="foto/foto10.jpg" alt=""></div>
+          <div class="swiper-slide swiper-slide2"><img src="foto/foto11.jpg" alt=""></div>
+          <div class="swiper-slide swiper-slide2"><img src="foto/foto12.jpg" alt=""></div>
+          <div class="swiper-slide swiper-slide2"><img src="foto/foto13.jpg" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container2', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 80,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+            loop: true,
+            autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+      },
+        });
+      </script>
+
+
+
+
+      <section class="content">
+          <div class="container">
+              <div class="content__text">
+                <p></p>
+                <p></p>
+              </div>
+          </div>
+      </section>
+
+
+      <footer class="footer">
+        <div class="container">
+          <div class="main-content" id="contacts">
+              <div class="left box">
+                  <h2 class="">Estamos en redes sociales</h2>
+                 <div class="footer__content">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quas laudantium, voluptate excepturi tempore saepe quisquam recusandae sint ratione blanditiis optio delectus alias eos possimus, dolorem voluptatem explicabo accusantium distinctio eaque</p>
+                     <div class="social">
+                         <a href="https://www.facebook.com"><span class="fab fa-facebook-f"></span></a>
+                         <a href="#"><span class="fab fa-twitter"></span></a>
+                         <a href="https://www.instagram.com"><span class="fab fa-instagram"></span></a>
+                         <a href="https://www.tiktok.com"><span class="fab fa-tiktok"></span></a>
+                         <a href="#"><span class="fab fa-youtube"></span></a>
+                         <a href="https://vk.com"><span class="fab fa-vk"></span></a>
+                     </div>
+                 </div>
+              </div>
+
+              <div class="center box">
+               <h2 class="">Dirección</h2>
+               <div class="footer__content">
+                   <div class="place">
+                       <span class="fas fa-map-marker-alt"></span>
+                       <span class="footer__text">Lima, Perú</span>
+                   </div>
+                   <div class="phone">
+                       <span class="fas fa-phone-alt"></span>
+                       <span class="footer__text">
+                           <a href="tel:+51971100565">+51971100565</a>
+                           
+                       </span>
+                   </div>
+                  
+               
+                   <div class="email">
+                       <span class="fas fa-envelope"></span>
+                       <span class="footer__text">
+                           <a href="mailto:">oncopao@gmail.com</a>
+                       </span>
+                   </div>
+               </div>
+              </div>
+              <div class="right box">
+                  <h2>Escribenos</h2>
+                  <div class="footer__content">
+                      <form action="php/telegram.php" method="POST" id="form" class="form__body">
+                          <div class="email" >
+                              <div class="footer__text">Numero de celular *</div>
+                              <input type="tel" required name="user_phone" id="">
+                          </div>
+                          <div class="msg">
+                           <div class="footer__text">Mensaje *</div>
+                           <textarea  name="user_message" id="" required cols="25" rows="2"></textarea>
+                          </div>
+                          <div class="footer__btn">
+                              <button type="submit" class="form__button">Enviar</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+          <div class="bottom">
+                <center>
+                      <span class="credit">Created By <a href="https://www.facebook.com/bondaritto">SB</a></span>
+                      <span class="far fa-copyright"></span>
+                      <span>2022.</span>
+                </center>
+          </div>
+       </div>
+      </footer>
+
+
+
+
+  </div>
+
+
+  <div id="popup1" class="popup">
+    <h2>Lorem, ipsum.</h2>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit laborum dolores ipsa rerum natus. Cumque nemo voluptates enim odio harum a accusantium ratione maiores ut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum magni nam labore ea, tempore ducimus unde illum fuga ab incidunt, molestias, deserunt sit aliquid minima! 
+  
+    <a class="popup__botton" href="#lighting" onclick="toggle1()">Cerar</a>
+</div>
+
+<div id="popup2" class="popup">
+  <h2>Lorem, ipsum.</h2>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit laborum dolores ipsa rerum natus. Cumque nemo voluptates enim odio harum a accusantium ratione maiores ut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum magni nam labore ea, tempore ducimus unde illum fuga ab incidunt, molestias, deserunt sit aliquid minima! </p>
+  <p></p>
+
+  <a class="popup__botton" href="#video" onclick="toggle2()">Cerar</a>
+</div>
+
+<div id="popup3" class="popup">
+  <h2>Lorem, ipsum. </h2>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit laborum dolores ipsa rerum natus. Cumque nemo voluptates enim odio harum a accusantium ratione maiores ut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum magni nam labore ea, tempore ducimus unde illum fuga ab incidunt, molestias, deserunt sit aliquid minima! </p>
+
+  <a class="popup__botton" href="#services" onclick="toggle3()">Cerar</a>
+</div>
+
+<div id="popup4" class="popup">
+  <h2 class="nombres"> Dra. Paolett Tejada</h2>
+  <p class="descripcion">Medico certificado por el Colegio Medico del Perú,especialista en Oncologia Medica con mas de 6 años de experiencia especializada en Cuidados Paliativos Oncologicos y manejo del dolor. Abarca temas de salud tales como: Consejeria Oncologica, Tratamiento de Enfermedades Oncologicas, Tratamiento y manejo de dolor Oncologico y no Oncologico, Cuidados paliativos en pacientes Oncologicos y no Oncologicos
+  , Cuidados de soporte ambulatorio y domiciliario a pacientes oncologicos, convalecientes post-tratamamientos. Se formo como Medico Cirujano en la Universidad de Medicina del Norte de Rusia. Posteriormente se especialiso en Oncologia Medica en la Universidad de Investigacion Medica "Pirogova" de Moscú, realizo cursos y diplomados en Cuidados Paliativos y Algologia en diversas Universidades del Perú y extranjero. Es Magister en Cuidados Paliativos y manejo del dolor en la Universidad del Rey Juan Carlos de Madrid.
+     </p>
+
+  <a class="popup__botton" href="#about" onclick="toggle4()">Cerar</a>
+</div>
+<script type="text/javascript">
+
+function toggle4() {
+    var blur = document.getElementById('blur');
+    blur.classList.toggle('active')
+    var popup4 = document.getElementById('popup4');
+    popup4.classList.toggle('active')
+}
+
+function toggle1() {
+    var blur = document.getElementById('blur');
+    blur.classList.toggle('active')
+    var popup1 = document.getElementById('popup1');
+    popup1.classList.toggle('active')
+}
+
+function toggle2() {
+    var blur = document.getElementById('blur');
+    blur.classList.toggle('active')
+    var popup2 = document.getElementById('popup2');
+    popup2.classList.toggle('active')
+}
+
+function toggle3() {
+    var blur = document.getElementById('blur');
+    blur.classList.toggle('active')
+    var popup3 = document.getElementById('popup3');
+    popup3.classList.toggle('active')
+}
+
+
+</script>
+
+
+
+  
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/jquery.js"></script>
+      <script src="js/custom.js"></script>
+</body>
+</html>
