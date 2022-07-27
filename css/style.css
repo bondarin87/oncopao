@@ -196,7 +196,7 @@ html,body {
 
 }
 
-@media (max-height:700px) {
+@media (max-height:450px) {
       .fotka {
             max-width: 80px;
             max-height: 80px;
