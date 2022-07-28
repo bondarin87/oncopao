@@ -8,11 +8,7 @@
   <meta http-equiv="author" content="Sergio Bondar"/>
   <script src="js/icons.js" crossorigin="anonymous"></script>
   <title>Medicina paliativa</title>
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
-/>
-<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+
   <link rel="shortcut icon" href="img/favicon.png" type="image/png">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
@@ -22,7 +18,7 @@
 
 </head>
 
-<body>
+<body id="modal" class="modal">
 
   <div class="lds-ring loader" id="loader">
     <div></div>
@@ -345,7 +341,9 @@ function toggle1() {
     blur.classList.toggle('active')
     var popup1 = document.getElementById('popup1');
     popup1.classList.toggle('active');
-    $('body').toggleClass('lock');
+    var modal = document.getElementById('modal');
+    modal.classList.toggle('active');
+    
 }
 
 function toggle2() {
@@ -353,7 +351,9 @@ function toggle2() {
     blur.classList.toggle('active')
     var popup2 = document.getElementById('popup2');
     popup2.classList.toggle('active');
-    $('body').toggleClass('lock');
+    var modal = document.getElementById('modal');
+    modal.classList.toggle('active');
+    
 }
 
 function toggle3() {
@@ -361,7 +361,9 @@ function toggle3() {
     blur.classList.toggle('active')
     var popup3 = document.getElementById('popup3');
     popup3.classList.toggle('active');
-    $('body').toggleClass('lock');
+    var modal = document.getElementById('modal');
+    modal.classList.toggle('active');
+    
 }
 
 
