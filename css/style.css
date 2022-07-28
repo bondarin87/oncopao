@@ -61,7 +61,7 @@ html,body {
       transition: 1.1s;
       overflow: auto;
       max-height: 80vh;
-      -webkit-overflow-scrolling: auto;
+  -webkit-overflow-scrolling: touch;
       
   
       
