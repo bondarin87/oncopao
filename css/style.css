@@ -45,7 +45,7 @@ html,body {
   
 
    #popup1, #popup2, #popup3  {
-      position: fixed;
+      position: absolute;
       margin-top: 50px ;
       top:40%;
       left: 50%;
