@@ -24,7 +24,7 @@ html,body {
       overflow: hidden;
       left: 0;
       right: 0;
-      display: flex;
+      
 }
 
 .wrapper#blur.active  {
@@ -61,7 +61,7 @@ html,body {
       visibility: hidden;
       opacity: 0;
       transition: 1.1s;
-      flex: content;
+      
       
   }
 
