@@ -24,11 +24,12 @@ html,body {
       overflow: hidden;
       left: 0;
       right: 0;
+      display: flex;
 }
 
 .wrapper#blur.active  {
 
-      filter: blur(3px);
+      filter: blur(20px);
       pointer-events: none;
       user-select: none;
       
@@ -43,10 +44,7 @@ html,body {
       color: rgba(3, 169, 244, 1);
   }
   
-.wrapper2 {
-      
-      overflow: hidden;
-}
+
    #popup1, #popup2, #popup3  {
       
       position: fixed;
@@ -63,11 +61,7 @@ html,body {
       visibility: hidden;
       opacity: 0;
       transition: 1.1s;
-      
-      
-     
-      
-  
+      flex: content;
       
   }
 
@@ -84,6 +78,7 @@ html,body {
            overflow: auto;
            overflow-y: auto;
            overflow-x: hidden;
+           
            
            
 
