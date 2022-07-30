@@ -591,6 +591,34 @@ html,body {
 .content__text p {
 	margin-bottom: 20px;
 }
+.mpoyno {
+      font-size: 16px;
+	line-height: 25px ;
+      color: #868686;
+}
+.mpoyno h2 {
+      margin-top: 70px;
+      color: #03a9f4;;
+}
+.cycco {
+      font-size: 16px;
+	line-height: 25px ;
+      color: #868686;
+}
+.cycco h2 {
+      margin-top: 70px;
+      color: #03a9f4;;
+}
+.mdd {
+      font-size: 16px;
+	line-height: 25px ;
+      color: #868686;
+}
+.mdd h2 {
+      margin-top: 70px;
+      color: #03a9f4;;
+}
+
 .content {
 	padding-top: 10px;
 	flex: 1 1 auto;
@@ -610,6 +638,11 @@ html,body {
 
 
 @media (max-width:767px) {
+      .mpoyno h2 {
+            margin-top: 0px;
+      }
+
+
 	body.lock {
 		overflow: hidden;
 	}
@@ -909,6 +942,7 @@ html,body {
 
  .right form .footer__btn button:hover {
        background: rgba(3, 169, 244, 1);
+       color: black;
  }
 
 .bottom center{
