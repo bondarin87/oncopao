@@ -600,6 +600,10 @@ html,body {
       margin-top: 70px;
       color: #03a9f4;;
 }
+.mpoyno li {
+      margin-left: 20px;
+}
+
 .cycco {
       font-size: 16px;
 	line-height: 25px ;
