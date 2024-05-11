@@ -199,9 +199,6 @@ html,body {
           padding: 3px 10px ; 
           text-align: center;
 }
-.formacion__content {
-	color: #868686;
-}
 
 @media (max-width:410px) {
       .banner__text p {
@@ -594,6 +591,19 @@ html,body {
 .content__text p {
 	margin-bottom: 20px;
 }
+
+.acerca p {
+      text-indent: 20px;
+      margin-top: 5px;
+}
+.formacion ul {
+      margin-top: 5px;
+}
+.formacion li {
+      margin-left: 30px;
+      color: #868686;
+}
+
 .mpoyno {
       font-size: 16px;
 	line-height: 25px ;
@@ -603,6 +613,9 @@ html,body {
       margin-top: 70px;
       color: #03a9f4;;
 }
+
+
+
 .mpoyno li {
       margin-left: 30px;
 }
