@@ -199,6 +199,9 @@ html,body {
           padding: 3px 10px ; 
           text-align: center;
 }
+.title__about {
+	color: #868686;
+}
 
 @media (max-width:410px) {
       .banner__text p {
