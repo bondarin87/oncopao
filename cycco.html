@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Servicios medicos">
+  <meta name="keywords" content="dolor, medicina paliativa, oncologia ">
+  <meta http-equiv="author" content="Sergio Bondar"/>
+  <script src="js/icons.js" crossorigin="anonymous"></script>
+  <title>Medicina paliativa</title>
+
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+
+  
+
+
+</head>
+
+<body id="modal" class="modal">
+
+  <div class="lds-ring loader" id="loader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+
+
+  <div class="wrapper" id="blur">
+
+
+
+      <header class="header">
+            <div class="container">
+                <div class="header__body">
+
+                    <a href="index.html" class="header__logo" >
+                        <img src="img/logo.png" alt="">
+                    </a>
+
+                    <div class="header__burger">
+                      <span>
+
+                      </span>
+                    </div>
+
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li>
+                                <a href="index.html" class="header__link">inicio</a>
+                            </li>
+                             <li>
+                                <a href="index.html#about" class="header__link">acerca de mi</a>
+                            </li>
+                            <li>
+                              <a href="index.html#formacion" class="header__link">formacion</a>
+                          </li>
+                            <li>
+                              <a href="index.html#services" class="header__link">servicios</a>
+                            </li>
+                            <li>
+                              <a href="index.html#gallery" class="header__link">galería</a>
+                            </li>
+                            <li>
+                              <a data-goto=".main-content" href="#" class="header__link">contactos</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+      </header>
+
+
+
+
+
+      <section class="content">
+          <div class="container">
+              <div class="cycco">
+                <h2>Consejeria y Cuidados Continuos Oncologicos</h2>
+                <br>
+               <p> La comprensión y entendimiento de la enfermedad en sus distintas etapas, su estado, el grado de severidad, su pronóstico y las opciones de tratamiento para esta por parte del paciente y el de su familia son importantes para tomar desiciones acertadas que podrian evitar en ciertas situaciones, obviar opciones de tratamiento, asi como tambien prolongar innecesariamente el sufrimiento u optar por medidas terapeuticas que no tienen como objetivo ni el bienestar ni la mejoria del pronostico de vida del paciente y esto se logra a traves de la consejeria mediante la comunicación entre el médico, paciente y familia, siempre asegurando el bienestar del paciente como una prioridad. </p>
+               <br>
+<p> Los cuidados continuos brindan soporte médico individual al paciente oncologico y su familia para afrontar los diversos sintomas causados por la enfermedad oncologica, asi como por los tratamientos y pruebas de diagnostico durante el curso de la enfermedad independientemente del pronostico al cual esta conlleve, con el fin de mejorar el estado de salud de la persona y su calidad de vida.</p>
+<br>
+<p>La enfermedad oncologica tambien afecta emocionalmente a las personas, situacion de estrés o ansiedad mientras la padece. La consejería individual y los cuidados continuos prermiten tambien brindar apoyo emocional y práctico para aquellos que se ven afectados por el cáncer.</p> 
+
+                
+              </div>
+          </div>
+      </section>
+
+
+      <footer class="footer">
+        <div class="container">
+          <div class="main-content" id="contacts">
+              <div class="left box">
+                  <h2 class="">Contactos</h2>
+                 <div class="footer__content">
+                     <p>Escribenos o ponte en contacto con nosotros y a la brevedad nos pondremos en
+                      contacto contigo y te brindaremos los alcances para poder ayudarte.</p>
+                     <div class="social">
+                         <a href="https://www.facebook.com"><span class="fab fa-facebook-f"></span></a>
+                         <a href="#"><span class="fab fa-twitter"></span></a>
+                         <a href="https://www.instagram.com"><span class="fab fa-instagram"></span></a>
+                         <a href="https://www.tiktok.com"><span class="fab fa-tiktok"></span></a>
+                         <a href="#"><span class="fab fa-youtube"></span></a>
+                         <a href="https://vk.com"><span class="fab fa-vk"></span></a>
+                     </div>
+                 </div>
+              </div>
+
+              <div class="center box">
+               <h2 class="">Dirección</h2>
+               <div class="footer__content">
+                   <div class="place">
+                       <span class="fas fa-map-marker-alt"></span>
+                       <span class="footer__text">Lima, Perú</span>
+                   </div>
+                   <div class="phone">
+                       <span class="fas fa-phone-alt"></span>
+                       <span class="footer__text">
+                           <a href="tel:+51971100565">+51971100565</a>
+                           
+                       </span>
+                   </div>
+                  
+               
+                   <div class="email">
+                       <span class="fas fa-envelope"></span>
+                       <span class="footer__text">
+                           <a href="mailto:">paolettteja@gmail.com</a>
+                       </span>
+                   </div>
+               </div>
+              </div>
+              <div class="right box">
+                  <h2>Escribenos</h2>
+                  <div class="footer__content">
+                      <form action="php/telegram.php" method="POST" id="form" class="form__body">
+                          <div class="email" >
+                              <div class="footer__text">Numero de celular *</div>
+                              <input type="tel" required name="user_phone" id="">
+                          </div>
+                          <div class="msg">
+                           <div class="footer__text">Mensaje *</div>
+                           <textarea  name="user_message" id="" required cols="25" rows="2"></textarea>
+                          </div>
+                          <div class="footer__btn">
+                              <button type="submit" class="form__button">Enviar</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+          <div class="bottom">
+                <center>
+                      <span class="credit">Created By <a href="https://www.instagram.com/serbondar">SB</a></span>
+                      <span class="far fa-copyright"></span>
+                      <span>2022.</span>
+                </center>
+          </div>
+       </div>
+      </footer>
+
+
+
+
+  </div>
+
+
+ 
+
+
+ 
+
+
+
+  
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/jquery.js"></script>
+      <script src="js/custom.js"></script>
+</body>
+</html>
